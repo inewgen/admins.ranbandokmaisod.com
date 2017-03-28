@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+
+    <title>bootstrap-wysihtml5</title>
+
+
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="src/bootstrap-wysihtml5.css" />
+    <!--<script src="lib/js/wysihtml5-0.3.0.js"></script>-->
+    <script src="lib/js/jquery-1.7.2.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <!--<script src="src/bootstrap3-wysihtml5.js"></script>-->
+    
+    <!--<link rel="stylesheet" type="text/css" href="http://arvigeus.github.io/bootstrap3-wysihtml5/lib/css/bootstrap.min.css" />-->
+    <!--<link rel="stylesheet" type="text/css" href="http://arvigeus.github.io/bootstrap3-wysihtml5/dist/bootstrap3-wysihtml5.min.css" />-->
+    <script src="http://arvigeus.github.io/bootstrap3-wysihtml5/dist/wysihtml5x-toolbar.min.js"></script>
+    <!--<script src="http://arvigeus.github.io/bootstrap3-wysihtml5/lib/js/jquery-1.11.1.min.js"></script>-->
+    <!--<script src="http://arvigeus.github.io/bootstrap3-wysihtml5/lib/js/bootstrap.min.js"></script>-->
+    <script src="http://arvigeus.github.io/bootstrap3-wysihtml5/dist/bootstrap3-wysihtml5.min.js"></script>
+
+    <style type="text/css" media="screen">
+        .btn.jumbo {
+            font-size: 20px;
+            font-weight: normal;
+            padding: 14px 24px;
+            margin-right: 10px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+<textarea class="textarea form-control" placeholder="Enter text ..." style="width: 810px; height: 200px"></textarea>
+
+
+<script>
+    $('.textarea').wysihtml5({html:true, stylesheets: ["dist/bootstrap3-wysihtml5-editor.min.css"]});
+</script>
+
+</body>
+</html>
