@@ -44,36 +44,36 @@ return array(
      */
 
     'connections' => array(
-        'mysql' => array(
-            'driver' => 'mysql',
-            'read'   => array(
-                'host' => 'mysql', //61.91.1.146
-            ),
-            'write' => array(
-                'host' => 'mysql', // 61.91.1.146
-            ),
-            'database'  => 'ranbandokmaisod', //authen
-            'username'  => 'root', // dev
-            'password'  => 'root', // dev!          'password'  => 'secret',
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-        ),
         // 'mysql' => array(
         //     'driver' => 'mysql',
         //     'read'   => array(
-        //         'host' => '127.0.0.1', //61.91.1.146
+        //         'host' => 'mysql', //61.91.1.146
         //     ),
         //     'write' => array(
-        //         'host' => '127.0.0.1', // 61.91.1.146
+        //         'host' => 'mysql', // 61.91.1.146
         //     ),
-        //     'database'  => 'u877211466_rbdm', //authen
-        //     'username'  => 'u877211466_rbdm', // dev
-        //     'password'  => 'Pat@0913763153', // dev!          'password'  => 'secret',
+        //     'database'  => 'ranbandokmaisod', //authen
+        //     'username'  => 'root', // dev
+        //     'password'  => 'root', // dev!          'password'  => 'secret',
         //     'charset'   => 'utf8',
         //     'collation' => 'utf8_unicode_ci',
         //     'prefix'    => '',
         // ),
+        'mysql' => array(
+            'driver' => 'mysql',
+            'read'   => array(
+                'host' => '127.0.0.1', //61.91.1.146
+            ),
+            'write' => array(
+                'host' => '127.0.0.1', // 61.91.1.146
+            ),
+            'database'  => 'u877211466_rbdm', //authen
+            'username'  => 'u877211466_rbdm', // dev
+            'password'  => 'Pat@0913763153', // dev!          'password'  => 'secret',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
     ),
 
     /*
