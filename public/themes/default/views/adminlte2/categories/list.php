@@ -133,8 +133,6 @@
                     <?php           elseif ($type == '3'): ?>
                                         <td>news</td>
                     <?php           elseif ($type == '4'): ?>
-                                        <td>news</td>
-                    <?php           elseif ($type == '5'): ?>
                                         <td>products</td>
                     <?php           endif; ?>
                     <?php       else: ?>
