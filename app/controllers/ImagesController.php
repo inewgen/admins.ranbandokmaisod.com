@@ -21,7 +21,8 @@ class ImagesController extends BaseController
             'user_id' => 'required',
             'token' => 'required',
             'timestamp' => 'required',
-            'Filedata' => 'required|mimes:gif,jpg,jpeg,png|image|image_size:<=1500,<=800|max:3000',
+            // 'Filedata' => 'required|mimes:gif,jpg,jpeg,png|image|image_size:<=1500,<=800|max:3000',
+            'Filedata' => 'required|mimes:gif,jpg,jpeg,png|image',
         );
 
         $validator = Validator::make($data, $rules);
