@@ -135,7 +135,7 @@
                     <?php           elseif ($type == '4'): ?>
                                         <td>news</td>
                     <?php           elseif ($type == '5'): ?>
-                                        <td>product</td>
+                                        <td>products</td>
                     <?php           endif; ?>
                     <?php       else: ?>
                                         <td><?php echo array_get($value ,$key2, '');?></td>
